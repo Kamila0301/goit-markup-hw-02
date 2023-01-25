@@ -1,0 +1,117 @@
+/* колір основного тексту #2E2F42; */
+
+/* вторичний колір #434455; */
+
+/* заглавний колір #FFFFFF; */
+
+/* колір у футері #E7E9FC; */
+
+/* колір кнопок на другому макеті  #4D5AE5; */
+
+:root {
+    --background-color: #E5E5E5;
+    --title-text-color: #FFFFFF;
+    --main-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --footer-color: #E7E9FC;
+}
+
+.page {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+}
+
+.first-logo {
+    color: var(--accent-color);
+}
+
+.second-logo {
+    color: var(--main-text-color);
+}
+
+.first-logo:hover,
+.second-logo:hover {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--main-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--secondary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+    color: var(--title-text-color);
+}
+
+/* Section */
+
+
+.section-title {
+    color: var(--main-text-color);
+}
+
+.section.description {
+    color: var(--secondary-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--main-text-color);
+}
+
+/* Examples */
+
+/* Specialists */
+
+.section .name {
+    color: var(--main-text-color);
+}
+
+.section .position {
+    color: var(--secondary-text-color);
+}
+
+/* Footer*/
+
+.section .slogan {
+    color: var(--footer-color)
+}
+
+/* Button */
+
+.button {
+    color: var(--title-text-color);
+    background-color: var(--accent-color);
+}
+
+.button.primary {
+    background-color: var(--accent-color);
+    color: var(--title-text-color);
+}

@@ -1,0 +1,63 @@
+/* колір основного тексту #2E2F42; */
+
+/* вторичний колір #434455; */
+
+/* заглавний колір #FFFFFF; */
+
+/* колір у футері #E7E9FC; */
+
+/* колір кнопок на другому макеті  #4D5AE5; */
+
+:root {
+    --background-color: #E5E5E5;
+    --title-text-color: #FFFFFF;
+    --main-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --accent-color: #4D5AE5;
+    --footer-color: #E7E9FC;
+}
+
+.page {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+}
+
+/* Logo */
+.first-logo {
+    color: var(--accent-color);
+}
+
+.second-logo {
+    color: var(--main-text-color);
+}
+
+.first-logo:hover,
+.second-logo:hover {
+    color: var(--accent-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+/* Site nav */
+
+.site-nav .link {
+    color: var(--main-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* Footer*/
+
+.section .slogan {
+    color: var(--footer-color)
+}
